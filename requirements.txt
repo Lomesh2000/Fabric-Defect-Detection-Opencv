@@ -1,6 +1,6 @@
 keras==2.9.0
 matplotlib==2.2.5
-numpy==1.23.0
+numpy==1.16.6
 opencv_python==4.6.0.66
 pandas==1.4.3
 Pillow==9.2.0
