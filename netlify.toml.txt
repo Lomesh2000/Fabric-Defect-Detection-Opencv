@@ -4,7 +4,7 @@
 # when using this option and avoid committing  
 # sensitive values to public source repositories.
 [context.production]
-  command = "make production"
+  command = "CI= npm run build"
   [context.production.environment]
     ACCESS_TOKEN = "super secret"
   # Deploys from main branch run this plugin in the build.
